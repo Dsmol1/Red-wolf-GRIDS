@@ -117,14 +117,19 @@ nav a:hover{
 .fa-instagram{
   color: #e24e18;
   font-size:4em;
-  margin:0 0.9em;
-  margin-top:0.5em;
 }
 
 .fa-facebook-square:hover,
 .fa-twitter-square:hover,
 .fa-instagram:hover{
   color:#ec812a;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  width: 100%;
 }
 
 /*FOOTER*/
@@ -162,6 +167,10 @@ footer > .row{
 
 footer p{
   line-height:1.9em;
+}
+
+footer p{
+padding: 1rem
 }
 
 @Media only screen and (max-width: 500px){
